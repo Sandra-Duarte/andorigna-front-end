@@ -16,7 +16,6 @@ const Navbar = () => {
     <div className="navbar-image-container">
     <img src={logo} alt= "logo andorinha"/></div>
     <div className='navbar-heading-container'>
-   <h4>Tiny Leaf Tea house</h4>
    </div>
    </div>
    <div className='hamburger-menu' onClick={() => setIsOpen(!isOpen)}>
