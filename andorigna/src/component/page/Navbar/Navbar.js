@@ -29,7 +29,7 @@ const Navbar = () => {
 <Link to="/" onClick={() => setIsOpen(false)} className='nav-link'>Home</Link>
 <Link to="/About Us" onClick={() => setIsOpen(false)} className='nav-link'>About Us</Link>
 <Link to="/Contact" onClick={() => setIsOpen(false)} className='nav-link'>Contact</Link>
-<Link to="/Sign Out" onClick={() => setIsOpen(false)} className='nav-link'>Sign Out</Link>
+
 </div>
 
     </nav>

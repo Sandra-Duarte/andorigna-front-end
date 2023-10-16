@@ -1,11 +1,16 @@
 
 import './App.css';
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  createRoutesFromElements
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
 
-    </div>
+   <><RouterProvider router={router} /></>
   );
 }
 
