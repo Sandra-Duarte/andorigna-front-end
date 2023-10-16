@@ -1,17 +1,10 @@
-
-import './App.css';
+import "./App.css";
+import Register from "../src/components/Register";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <p className='text-red-500'>kjashd
-        sassjh</p>
-        <div className='rounded-full bg-green-900'>
-          sakjj
-
-        </div>
-      </header>
+    <div className="h-screen flex items-center bg-gradient-to-tl from-white via-[#8ACFED] to-[#79CDF1]" >
+     <Register />
     </div>
   );
 }
