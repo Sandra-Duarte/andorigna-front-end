@@ -1,4 +1,6 @@
-import React from "react";
+import { BiHide } from "react-icons/bi";
+import { BiShow } from "react-icons/bi"
+
 
 function Register() {
   return (
@@ -39,16 +41,18 @@ function Register() {
             type="date"
           />
         </div>
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-1 relative">
           <label>Password</label>
+          <BiShow className="absolute w-5 h-5 right-3 bottom-[10%] opacity-60"/>
           <input
             className="w-full border border-gray-500 py-0.5 px-1 rounded-md"
             //placeholder="Insert your password"
             type="text"
           />
         </div>
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-1 relative">
           <label>Confirm Password</label>
+          <BiShow className="absolute w-5 h-5 right-3 bottom-[10%] opacity-60"/>
           <input
             className="w-full border border-gray-500 py-0.5 px-1 rounded-md"
             //placeholder="Insert your password"
