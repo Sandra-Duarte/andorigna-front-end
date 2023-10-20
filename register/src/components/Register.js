@@ -3,7 +3,7 @@ import React from "react";
 function Register() {
   return (
     <div className="w-full flex justify-center overflow-hidden">
-      <div className="bg-white rounded-xl p-10 space-y-5 border border-gray-300 min-w-[20rem]">
+      <div className="bg-white rounded-xl sm:px-10 sm:py-10 px-6 py-5 sm:space-y-5 space-y-3 border border-gray-300 min-w-[20rem]">
         <h2 className="text-2xl">Register</h2>
         <div className="sm:flex sm:flex-row flex-col gap-x-5">
           <div className="flex flex-col gap-1 sm:pb-0 pb-5">
