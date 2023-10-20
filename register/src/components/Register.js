@@ -1,8 +1,14 @@
+import { useState } from "react";
 import { BiHide } from "react-icons/bi";
-import { BiShow } from "react-icons/bi"
-
+import { BiShow } from "react-icons/bi";
 
 function Register() {
+  const [showPassword, setShowPassword] = useState(false);
+
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
+
   return (
     <div className="w-full flex justify-center overflow-hidden">
       <div className="bg-white rounded-xl sm:px-10 sm:py-10 px-6 py-5 sm:space-y-5 space-y-3 border border-gray-300 min-w-[20rem]">
@@ -43,16 +49,25 @@ function Register() {
         </div>
         <div className="flex flex-col gap-1 relative">
           <label>Password</label>
-          <BiShow className="absolute w-5 h-5 right-3 bottom-[10%] opacity-60"/>
+          {showPassword ? (
+            <BiHide
+              onClick={togglePasswordVisibility}
+              className="absolute w-5 h-5 right-3 bottom-[10%] cursor-pointer opacity-60"
+            />
+          ) : (
+            <BiShow
+              onClick={togglePasswordVisibility}
+              className="absolute w-5 h-5 right-3 bottom-[10%] cursor-pointer opacity-60"
+            />
+          )}
           <input
             className="w-full border border-gray-500 py-0.5 px-1 rounded-md"
-            //placeholder="Insert your password"
-            type="text"
+            type={showPassword ? "text" : "password"}
           />
         </div>
         <div className="flex flex-col gap-1 relative">
           <label>Confirm Password</label>
-          <BiShow className="absolute w-5 h-5 right-3 bottom-[10%] opacity-60"/>
+          <BiShow className="absolute w-5 h-5 right-3 bottom-[10%] opacity-60" />
           <input
             className="w-full border border-gray-500 py-0.5 px-1 rounded-md"
             //placeholder="Insert your password"
