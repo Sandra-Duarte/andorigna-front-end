@@ -17,14 +17,14 @@ function Register() {
   return (
     <div className="w-full flex justify-center overflow-hidden">
       <div className="bg-white rounded-xl sm:px-10 sm:py-10 px-6 py-5 sm:space-y-5 space-y-3 border border-gray-300 min-w-[20rem]">
-        <h2 className="text-2xl">Register</h2>
+        <h2 className="text-3xl">Register</h2>
         <div className="sm:flex sm:flex-row flex-col gap-x-5">
           <div className="flex flex-col gap-1 sm:pb-0 pb-5">
             <label>Name</label>
             <input
               //placeholder="Insert your name"
               type="text"
-              className="border border-gray-500 py-0.5 px-1 rounded-md overflow-ellipsis"
+              className="border border-gray-500 py-1 px-2 rounded-[4px] overflow-ellipsis"
             />
           </div>
           <div className="flex flex-col gap-1">
@@ -32,7 +32,7 @@ function Register() {
             <input
               //placeholder="Insert your Surname"
               type="text"
-              className="border border-gray-500 py-0.5 px-1 rounded-md overflow-ellipsis"
+              className="border border-gray-500 py-1 px-2 rounded-[4px] overflow-ellipsis"
             />
           </div>
         </div>
@@ -41,13 +41,13 @@ function Register() {
           <input
             //placeholder="Insert your Email"
             type="text"
-            className="border border-gray-500 py-0.5 px-1 rounded-md overflow-ellipsis"
+            className="border border-gray-500 py-1 px-2 rounded-[4px] overflow-ellipsis"
           />
         </div>
         <div className="flex flex-col gap-1">
           <label>Date of birthday</label>
           <input
-            className="w-full border border-gray-500 py-0.5 px-1 rounded-md"
+            className="w-full border border-gray-500 py-1 px-2 rounded-[4px] overflow-ellipsis"
             //placeholder="Insert your password"
             type="date"
           />
@@ -66,7 +66,7 @@ function Register() {
             />
           )}
           <input
-            className="w-full border border-gray-500 py-0.5 px-1 rounded-md"
+            className="w-full border border-gray-500 py-1 px-2 rounded-[4px] overflow-ellipsis"
             type={showPassword ? "text" : "password"}
           />
         </div>
@@ -84,12 +84,12 @@ function Register() {
             />
           )}
           <input
-            className="w-full border border-gray-500 py-0.5 px-1 rounded-md"
+            className="w-full border border-gray-500 py-1 px-2 rounded-[4px] overflow-ellipsis"
             type={showConfirmPassword ? "text" : "password"}
           />
         </div>
         <div className="pt-5">
-          <button className="bg-[#31B1FE] px-5 py-1 rounded-full text-white font-bold">
+          <button className="bg-[#31B1FE] hover:bg-[#2c9fe5] px-5 py-2 rounded-full text-white font-medium">
             Create Account
           </button>
         </div>
