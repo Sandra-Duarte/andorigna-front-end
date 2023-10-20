@@ -2,14 +2,14 @@ import React from "react";
 
 function Register() {
   return (
-    <div className="w-full flex justify-center">
-      <div className="bg-white w-fit h-fit rounded-xl p-10 space-y-5 border border-gray-300">
+    <div className="w-full flex justify-center overflow-hidden">
+      <div className="bg-white rounded-xl p-10 space-y-5 border border-gray-300 min-w-[20rem]">
         <h2 className="text-2xl">Register</h2>
-        <div className="flex gap-10">
-          <div className="flex flex-col gap-1">
+        <div className="sm:flex sm:flex-row flex-col gap-x-5">
+          <div className="flex flex-col gap-1 sm:pb-0 pb-5">
             <label>Name</label>
             <input
-              placeholder="Insert your name"
+              //placeholder="Insert your name"
               type="text"
               className="border border-gray-500 py-0.5 px-1 rounded-md overflow-ellipsis"
             />
@@ -17,7 +17,7 @@ function Register() {
           <div className="flex flex-col gap-1">
             <label>Surname</label>
             <input
-              placeholder="Insert your Surname"
+              //placeholder="Insert your Surname"
               type="text"
               className="border border-gray-500 py-0.5 px-1 rounded-md overflow-ellipsis"
             />
@@ -26,7 +26,7 @@ function Register() {
         <div className="flex flex-col gap-1">
           <label>Email</label>
           <input
-            placeholder="Insert your Email"
+            //placeholder="Insert your Email"
             type="text"
             className="border border-gray-500 py-0.5 px-1 rounded-md overflow-ellipsis"
           />
@@ -35,7 +35,7 @@ function Register() {
           <label>Date of birthday</label>
           <input
             className="w-full border border-gray-500 py-0.5 px-1 rounded-md"
-            placeholder="Insert your password"
+            //placeholder="Insert your password"
             type="date"
           />
         </div>
@@ -43,7 +43,7 @@ function Register() {
           <label>Password</label>
           <input
             className="w-full border border-gray-500 py-0.5 px-1 rounded-md"
-            placeholder="Insert your password"
+            //placeholder="Insert your password"
             type="text"
           />
         </div>
@@ -51,7 +51,7 @@ function Register() {
           <label>Confirm Password</label>
           <input
             className="w-full border border-gray-500 py-0.5 px-1 rounded-md"
-            placeholder="Insert your password"
+            //placeholder="Insert your password"
             type="text"
           />
         </div>
