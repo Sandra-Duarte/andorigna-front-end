@@ -21,7 +21,7 @@ function Register() {
           className="bg-white rounded-xl sm:px-10 sm:py-10 px-6 py-5 sm:space-y-5 space-y-3 border border-gray-300 min-w-[20rem]"
           style={{ boxShadow: "0px 0px 20px 0px rgba(0, 0, 0, 0.1)" }}
         >
-          <h2 className="text-3xl">Register</h2>
+          <h2 className="text-3xl ">Register</h2>
           <div className="sm:flex sm:flex-row flex-col gap-x-5">
             <div className="flex flex-col gap-1 sm:pb-0 pb-5">
               <label>Name</label>
@@ -103,7 +103,7 @@ function Register() {
         <div className="bg-white bg-opacity-30 w-full p-4 rounded-[4px] max-w-[30rem] mx-auto">
           <p>
             Already have an account?{" "}
-            <span className="text-[#31B1FE] hover:text-[#2c9fe5] cursor-pointer font-semibold">
+            <span className="text-[#113e59] hover:text-[#165072] cursor-pointer font-semibold">
               Login
             </span>
           </p>
