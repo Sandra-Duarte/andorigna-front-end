@@ -5,18 +5,15 @@ import { BiShow } from "react-icons/bi";
 function Login() {
   const [showPassword, setShowPassword] = useState(false);
 
-
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
   };
-
-
 
   return (
     <div className="h-screen flex gap-5 flex-col justify-center bg-gradient-to-tl from-white via-[#8ACFED] to-[#79CDF1]">
       <div className="w-full flex justify-center overflow-hidden">
         <div
-          className="bg-white rounded-xl sm:px-10 sm:py-10 px-6 py-5 sm:space-y-5 space-y-3 border border-gray-300 min-w-[20rem]"
+          className="bg-white rounded-xl sm:px-10 sm:py-10 px-10 py-5 sm:space-y-5 space-y-3 border border-gray-300 min-w-[20rem]"
           style={{ boxShadow: "0px 0px 20px 0px rgba(0, 0, 0, 0.1)" }}
         >
           <h2 className="text-3xl ">Login</h2>
