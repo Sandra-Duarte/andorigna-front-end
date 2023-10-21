@@ -1,9 +1,9 @@
-import React, {useState} from 'react'
-import { Link } from 'react-router-dom'
-import "./Navbar.css"
-import logo from "../../public/Logo.png"
-import Menu from ".../../../public/Menu.png"
-import Close from "../../public/Close.png"
+import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
+import "./Navbar.css";
+import logo from "../image/Logo.png";
+import Menu from "../image/Menu.png";
+import Close from "../image/Close.png";
 
 
 const Navbar = () => {

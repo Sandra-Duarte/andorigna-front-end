@@ -9,6 +9,7 @@ import {
 import Home from './component/page/Home/Home';
 import Contact from './component/page/Contact/Contact';
 import About from './component/page/About Us/About';
+import Layout from './component/page/Navbar/Layout';
 
 const router = createBrowserRouter(createRoutesFromElements(
 
