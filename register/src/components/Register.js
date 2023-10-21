@@ -99,8 +99,8 @@ function Register() {
           </div>
         </div>
       </div>
-      <div className="flex mx-auto w-full text-center">
-        <div className="bg-white bg-opacity-30 w-full p-4 rounded-[4px] max-w-[30rem] mx-auto">
+             
+                <div className="bg-white bg-opacity-30 p-4 w-full rounded-[4px] max-w-[30rem] flex mx-auto justify-center">
           <p>
             Already have an account?{" "}
             <span className="text-[#113e59] hover:text-[#165072] cursor-pointer font-semibold">
@@ -108,7 +108,11 @@ function Register() {
             </span>
           </p>
         </div>
-      </div>
+                
+             
+            
+        
+  
     </div>
   );
 }
